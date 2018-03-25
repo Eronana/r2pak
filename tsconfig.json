@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "lib": ["dom", "esnext"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "removeComments": true,
+    "rootDir": "lib",
+    "sourceMap": false,
+    "strict": true,
+    "target": "es5"
+  },
+  "include": [
+    "lib/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+

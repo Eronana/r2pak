@@ -1,0 +1,19 @@
+{
+    "search.exclude": {  
+        "**/node_modules": true,  
+        "**/dist": true,
+        "bundle*.js": true
+    },  
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,  
+        "**/dist": true,
+        "bundle*.js": true,
+        "package-lock.json": true
+    },
+    "editor.tabSize": 2
+}
