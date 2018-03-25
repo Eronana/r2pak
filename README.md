@@ -27,17 +27,17 @@ for (const file of files) {
 ## API
 ### readPakFromBuffer(buffer:Buffer)
 - `buffer` the pak file buffer
-Returns: File[]
+- Returns: File[]
 
 ### File
-name: string
-type: FileType
-size: number
-isDirectory: boolean
-data: Buffer
+- name: string
+- type: FileType
+- size: number
+- isDirectory: boolean
+- data: Buffer
 
 ### FileType
-RAW = 0
-LZSS = 1
-DIRECTORY = 2
-LZSSXOR = 3
+- RAW = 0
+- LZSS = 1
+- DIRECTORY = 2
+- LZSSXOR = 3
